@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ScrollView xmlns:android='http://schemas.android.com/apk/res/android'
+  android:layout_width='match_parent'
+  android:layout_height='match_parent'>
+  <LinearLayout
+      android:orientation='vertical'
+      android:layout_width='match_parent'
+      android:layout_height='wrap_content'
+      android:padding='16dp'>
+
+    <EditText android:id='@+id/edBarcode' android:hint='Code-barres' android:layout_width='match_parent' android:layout_height='wrap_content'/>
+    <EditText android:id='@+id/edName' android:hint='Nom' android:layout_width='match_parent' android:layout_height='wrap_content' android:layout_marginTop='8dp'/>
+    <EditText android:id='@+id/edQty' android:hint='Quantité (nombre/grammes)' android:inputType='numberDecimal' android:layout_width='match_parent' android:layout_height='wrap_content' android:layout_marginTop='8dp'/>
+    <EditText android:id='@+id/edUnit' android:hint='Unité (pcs, g, ml...)' android:layout_width='match_parent' android:layout_height='wrap_content' android:layout_marginTop='8dp'/>
+    <EditText android:id='@+id/edLocation' android:hint='Lieu (frigo, congélo, placard...)' android:layout_width='match_parent' android:layout_height='wrap_content' android:layout_marginTop='8dp'/>
+    <EditText android:id='@+id/edExpiry' android:hint='DLC (YYYY-MM-DD)' android:layout_width='match_parent' android:layout_height='wrap_content' android:layout_marginTop='8dp'/>
+    <EditText android:id='@+id/edImage' android:hint='Image URL' android:layout_width='match_parent' android:layout_height='wrap_content' android:layout_marginTop='8dp'/>
+
+    <Button android:id='@+id/btnFetch' android:text='Auto (OpenFoodFacts)' android:layout_width='wrap_content' android:layout_height='wrap_content' android:layout_marginTop='12dp'/>
+    <Button android:id='@+id/btnSave' android:text='@string/save' android:layout_width='match_parent' android:layout_height='wrap_content' android:layout_marginTop='16dp'/>
+  </LinearLayout>
+</ScrollView>

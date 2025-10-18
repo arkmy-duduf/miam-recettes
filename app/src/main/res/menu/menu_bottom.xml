@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<menu xmlns:android='http://schemas.android.com/apk/res/android'>
+  <item android:id='@+id/nav_stock'   android:title='@string/tab_stock'   android:icon='@android:drawable/ic_menu_agenda'/>
+  <item android:id='@+id/nav_scan'    android:title='@string/tab_scan'    android:icon='@android:drawable/ic_menu_camera'/>
+  <item android:id='@+id/nav_recipes' android:title='@string/tab_recipes' android:icon='@android:drawable/ic_menu_sort_by_size'/>
+</menu>

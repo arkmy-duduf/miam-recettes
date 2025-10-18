@@ -1,0 +1,9 @@
+<resources>
+  <string name='app_name'>Miam</string>
+  <string name='tab_stock'>Stock</string>
+  <string name='tab_scan'>Scan</string>
+  <string name='tab_recipes'>Recettes</string>
+  <string name='add'>Ajouter</string>
+  <string name='save'>Enregistrer</string>
+  <string name='cook'>Cuisiner</string>
+</resources>
